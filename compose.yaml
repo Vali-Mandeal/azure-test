@@ -1,0 +1,12 @@
+﻿services:
+  azure-api-test1:
+    image: azure-api-test1
+    build:
+      context: .
+      dockerfile: azure-api-test1/Dockerfile
+
+  azure-api-test2:
+    image: azure-api-test2
+    build:
+      context: .
+      dockerfile: azure-api-test2/Dockerfile
