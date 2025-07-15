@@ -63,4 +63,5 @@ jobs:
           app-name: 'api-test-666-1'
           slot-name: 'Production'
           package: .
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           
