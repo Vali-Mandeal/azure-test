@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/azure-api-test2.props" />
-</Project>

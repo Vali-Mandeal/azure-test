@@ -1,8 +1,0 @@
-@azure_api_test2_HostAddress = http://localhost:5175
-
-#GET {{azure_api_test2_HostAddress}}/weatherforecast/
-#Accept: application/json
-
-GET {{azure_api_test2_HostAddress}}/test2/
-Accept: application/json
-###
